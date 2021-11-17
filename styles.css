@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(images/pattern-background-mobile.svg) no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 325px;
+    overflow: hidden;
+}
+.card {
+    text-align: center;
+}
+h1 {
+    font-size: 1.35em;
+    margin: 20px 0 10px;
+}
+.annual-plan, h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.summary-p {
+    color:  hsl(224, 23%, 55%);
+    line-height: 1.5;
+    padding: 10px 25px;
+}
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    width: 290px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+.price-sum {
+    margin-right: 25px;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+.icon-container img {
+    margin-right: 20px;
+}
+.yearly-price {
+    color: hsl(224, 23%, 55%);
+}
+.plan-container a {
+    font-weight: 700;
+    font-size: 0.8em;
+    color: hsl(245, 75%, 52%);
+    align-self: center;
+}
+.order-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.payment-btn {
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 7px 13px 0px hsl(224deg 23% 55%);
+}
+.cancel-btn {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    margin: 25px 0 5px;
+}
+.payment-btn, .cancel-btn {
+    border: none;
+    font-weight: 700;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8em;
+}
