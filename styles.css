@@ -105,3 +105,8 @@ footer {
     bottom: 0;
     font-size: 0.8em;
 }
+@media screen and (min-width: 1025px) {
+    body {
+       background-image: url(images/pattern-background-desktop.svg);
+    }
+}    
